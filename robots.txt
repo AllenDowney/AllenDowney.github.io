@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Book sitemaps are listed here as each book site gets one, e.g.
+# Sitemap: https://allendowney.github.io/ProbablyOverthinkingIt/sitemap.xml
