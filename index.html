@@ -3,18 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Allen B. Downey: Books and Notebooks</title>
-<meta name="description" content="Free online books, Jupyter notebooks, and companion sites by Allen B. Downey, on statistics, Bayesian methods, data science, Python, and modeling.">
+<title>Allen B. Downey: Books, Notebooks, and Workshops</title>
+<meta name="description" content="Free online books, workshops, and Jupyter notebooks by Allen B. Downey, on statistics, Bayesian methods, data science, Python, and modeling.">
 <link rel="canonical" href="https://allendowney.github.io/">
 <style>
   body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #222; background: #fff; }
   @media (prefers-color-scheme: dark) { body { color: #ddd; background: #111; } a { color: #8ab4f8; } }
   li { margin: 0.4rem 0; }
+  .note { color: #666; font-size: 0.95em; }
+  @media (prefers-color-scheme: dark) { .note { color: #aaa; } }
 </style>
 </head>
 <body>
-<h1>Allen B. Downey: Books and Notebooks</h1>
-<p>Online versions of my books and their companion notebooks. For my blog, newsletter, and everything else, see <a href="https://allendowney.com">allendowney.com</a>.</p>
+<h1>Allen B. Downey: Books, Notebooks, and Workshops</h1>
+<p>Online versions of my books, their companion notebooks, and materials from my workshops. For my blog, newsletter, and everything else, see <a href="https://allendowney.com">allendowney.com</a>.</p>
 
 <h2>Books</h2>
 <ul>
@@ -31,11 +33,45 @@
   <li><a href="https://allendowney.github.io/LittleBookOfSemaphores/">The Little Book of Semaphores</a></li>
 </ul>
 
+<h2>Workshops and tutorials</h2>
+<p>Materials from workshops I have given at PyData, PyCon, ODSC, and elsewhere. Each one has notebooks you can work through on your own. Workshops marked <em>self-study</em> are not offered live now, but the material is still useful.</p>
+
+<h3>Bayesian statistics</h3>
+<p class="note">Where to start: if you are new to probability, start with <em>Bite Size Bayes</em>. If you know Python and want the core ideas quickly, start with <em>Bayesian Statistics Made Simple</em>. Then move on to the PyMC workshops for real-world models. The book that goes with all of them is <a href="https://allendowney.github.io/ThinkBayes2/"><em>Think Bayes</em></a>.</p>
+<ul>
+  <li><a href="https://allendowney.github.io/BiteSizeBayes/">Bite Size Bayes</a>: an introduction to Bayesian statistics in short notebooks, with no previous knowledge of probability assumed</li>
+  <li><a href="https://allendowney.github.io/BayesMadeSimple/">Bayesian Statistics Made Simple</a>: Bayesian methods using grid algorithms, for people who know Python (PyCon 2012–2016, SciPy 2019) · <a href="https://www.youtube.com/watch?v=-X0BiV9n_fQ">video</a></li>
+  <li><a href="https://github.com/AllenDowney/BDAwithPyMC">Bayesian Decision Analysis with PyMC: Beyond A/B Testing</a>: A/B testing, Thompson sampling, and hierarchical models with PyMC (PyData Global 2025) · <a href="https://www.youtube.com/watch?v=6yVIlWGNoGI">video</a></li>
+  <li><a href="https://allendowney.github.io/SurveyDataPyMC/">Bayesian Regression for Survey Data with PyMC</a>: logistic, categorical, and ordered logistic regression (ODSC East 2025)</li>
+  <li><a href="https://allendowney.github.io/BayesianDecisionAnalysis/">Bayesian Decision Analysis</a>: from Bayes's theorem to Bayesian bandits, with NumPy and Pandas (ODSC East and PyData Global 2022) · <a href="https://www.youtube.com/watch?v=fsdbneHgi58">video</a> <span class="note">self-study</span></li>
+  <li><a href="https://github.com/AllenDowney/BayesianMethodsForClinicalTrials">Bayesian Methods for Clinical Trials</a>: PyMC examples and the FDA draft guidance on Bayesian methods <span class="note">self-study</span></li>
+</ul>
+
+<h3>Statistics and data analysis</h3>
+<ul>
+  <li><a href="https://allendowney.github.io/SurveyDataPandas/">Survey Data with Pandas</a>: loading, validating, exploring, and modeling survey data with Pandas and StatsModels (PyCon US 2025)</li>
+  <li><a href="https://allendowney.github.io/CompStats/">Computational Statistics</a>: effect sizes, sampling distributions, and hypothesis testing with resampling and simulation (PyCon 2015–2016, SciPy 2015, 2017) · <a href="https://www.youtube.com/watch?v=He9MCbs1wgE">video</a></li>
+  <li><a href="https://allendowney.github.io/SurvivalAnalysisPython/">Survival Analysis in Python</a>: survival and hazard functions, computation first (PyData Global 2021) · <a href="https://www.youtube.com/watch?v=3GL0AIlzR4Q">video</a></li>
+  <li><a href="https://allendowney.github.io/ThinkStats/time_series.html">Time Series Analysis with StatsModels</a>: a chapter of <em>Think Stats</em> (PyData Global 2024) · <a href="https://www.youtube.com/watch?v=foMbacbuAQk">video</a></li>
+</ul>
+
+<h3>Case studies</h3>
+<p class="note">Each works on its own, and both are part of <a href="https://allendowney.github.io/ElementsOfDataScience/"><em>Elements of Data Science</em></a>.</p>
+<ul>
+  <li><a href="https://allendowney.github.io/PoliticalAlignmentCaseStudy/">Political Alignment</a>: fifty years of General Social Survey data on political alignment, outlook, and beliefs (PyData Global 2020) · videos: <a href="https://www.youtube.com/watch?v=6Bg7v5EGiWY">1</a>, <a href="https://www.youtube.com/watch?v=y8A3bKjpJe4">2</a>, <a href="https://www.youtube.com/watch?v=vfuXyXXSNtM">3</a>, <a href="https://www.youtube.com/watch?v=XFPi-AUiJSo">4</a></li>
+  <li><a href="https://allendowney.github.io/RecidivismCaseStudy/">Recidivism</a>: classification and algorithmic fairness, using the COMPAS risk scores</li>
+</ul>
+
+<h3>Other topics</h3>
+<ul>
+  <li><a href="https://allendowney.github.io/ThinkDSP/">Introduction to Digital Signal Processing</a>: chapters from <em>Think DSP</em> (PyCon 2017–2018) · <a href="https://www.youtube.com/watch?v=SrJq2AzXZME">video</a> <span class="note">self-study</span></li>
+  <li><a href="https://allendowney.github.io/AstronomicalData/">Astronomical Data in Python</a>: querying, joining, and plotting Gaia data with Astropy and Pandas; also a <a href="https://datacarpentry.github.io/astronomy-python/">Data Carpentry lesson</a> <span class="note">self-study</span></li>
+  <li><a href="https://allendowney.github.io/ComplexityScience/">Complexity Science</a>: based on <a href="https://allendowney.github.io/ThinkComplexity2/"><em>Think Complexity</em></a> (PyCon 2017–2018, SciPy 2019) · <a href="https://www.youtube.com/watch?v=ccA6ghSW1Iw">video</a> <span class="note">self-study</span></li>
+</ul>
+
 <h2>Other projects</h2>
 <ul>
   <li><a href="https://allendowney.github.io/DataQnA/">Data Q&amp;A</a>: questions and answers about data and statistics</li>
-  <li><a href="https://allendowney.github.io/AstronomicalData/">Astronomical Data in Python</a></li>
-  <li><a href="https://allendowney.github.io/SurvivalAnalysisPython/">Survival Analysis in Python</a></li>
 </ul>
 </body>
 </html>
