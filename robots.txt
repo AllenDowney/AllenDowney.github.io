@@ -5,3 +5,4 @@ Allow: /
 Sitemap: https://allendowney.github.io/ProbablyOverthinkingIt/sitemap.xml
 Sitemap: https://allendowney.github.io/ThinkPython/sitemap.xml
 Sitemap: https://allendowney.github.io/BayesMadeSimple/sitemap.xml
+Sitemap: https://allendowney.github.io/SurvivalAnalysisPython/sitemap.xml
