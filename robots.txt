@@ -3,3 +3,4 @@ Allow: /
 
 # Book sitemaps, one line per book site
 Sitemap: https://allendowney.github.io/ProbablyOverthinkingIt/sitemap.xml
+Sitemap: https://allendowney.github.io/ThinkPython/sitemap.xml
