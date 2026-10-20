@@ -8,3 +8,4 @@ Sitemap: https://allendowney.github.io/BayesMadeSimple/sitemap.xml
 Sitemap: https://allendowney.github.io/SurvivalAnalysisPython/sitemap.xml
 Sitemap: https://allendowney.github.io/CompStats/sitemap.xml
 Sitemap: https://allendowney.github.io/BiteSizeBayes/sitemap.xml
+Sitemap: https://allendowney.github.io/SurveyDataPandas/sitemap.xml
