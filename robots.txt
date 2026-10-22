@@ -13,3 +13,4 @@ Sitemap: https://allendowney.github.io/BDAwithPyMC/sitemap.xml
 Sitemap: https://allendowney.github.io/BayesianDecisionAnalysis/sitemap.xml
 Sitemap: https://allendowney.github.io/SurveyDataPyMC/sitemap.xml
 Sitemap: https://allendowney.github.io/ComplexityScience/sitemap.xml
+Sitemap: https://allendowney.github.io/AstronomicalData/sitemap.xml
