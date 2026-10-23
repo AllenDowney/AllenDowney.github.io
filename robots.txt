@@ -18,3 +18,4 @@ Sitemap: https://allendowney.github.io/ThinkStats/sitemap.xml
 Sitemap: https://allendowney.github.io/ThinkBayes2/sitemap.xml
 Sitemap: https://allendowney.github.io/ModSimPy/sitemap.xml
 Sitemap: https://allendowney.github.io/ThinkDSP2/sitemap.xml
+Sitemap: https://allendowney.github.io/ThinkComplexity/sitemap.xml
