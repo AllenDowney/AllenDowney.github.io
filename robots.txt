@@ -1,7 +1,10 @@
 User-agent: *
 Allow: /
 
-# Book sitemaps, one line per book site
+# Sitemap index of all the sites below (make_sitemap_index.py writes it from these lines)
+Sitemap: https://allendowney.github.io/sitemap.xml
+
+# Book and workshop sitemaps, one line per site; after editing, run make_sitemap_index.py
 Sitemap: https://allendowney.github.io/ProbablyOverthinkingIt/sitemap.xml
 Sitemap: https://allendowney.github.io/ThinkPython/sitemap.xml
 Sitemap: https://allendowney.github.io/BayesMadeSimple/sitemap.xml
