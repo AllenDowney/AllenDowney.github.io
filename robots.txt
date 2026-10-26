@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+# Jupyter Book's copies of the raw notebooks and Markdown; Google crawled them as pages
+Disallow: /*/_sources/
 
 # Sitemap index of all the sites below (make_sitemap_index.py writes it from these lines)
 Sitemap: https://allendowney.github.io/sitemap.xml
