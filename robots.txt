@@ -27,3 +27,4 @@ Sitemap: https://allendowney.github.io/ThinkComplexity/sitemap.xml
 Sitemap: https://allendowney.github.io/LifeExpectancy/sitemap.xml
 Sitemap: https://allendowney.github.io/SelectionSAT/sitemap.xml
 Sitemap: https://allendowney.github.io/PhysicalModelingInMatlab/sitemap.xml
+Sitemap: https://allendowney.github.io/DataQnA/sitemap.xml
